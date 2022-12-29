@@ -1,0 +1,23 @@
+digraph G {
+	overlap=scale splines=true
+	edge [fontsize=12]
+	node [fillcolor="#cae6df" shape=circle style=filled]
+	G [label=G]
+	node [shape=box style=""]
+	DRY [label=DRY]
+	EAR [label=EAR]
+	GPE [label=GPE]
+	HEA [label=HEA]
+	HEI [label=HEI]
+	MAT [label=MAT]
+	RIP [label=RIP]
+	TGW [label=TGW]
+	G -> EAR [label=1.000]
+	G -> GPE [label="4.079\np-val: 0.00"]
+	G -> DRY [label="30.086\np-val: 0.00"]
+	G -> TGW [label="2.062\np-val: 0.00"]
+	G -> HEA [label="-3.224\np-val: 0.00"]
+	G -> MAT [label="-2.410\np-val: 0.00"]
+	G -> HEI [label="5.955\np-val: 0.00"]
+	G -> RIP [label="0.932\np-val: 0.00"]
+}
